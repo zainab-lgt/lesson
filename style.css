@@ -5,97 +5,51 @@
 }
 
 body {
-    padding: 50px 0;
-}
-
-.main {
     font-family: 'StratosSkyeng', sans-serif;
-    background-color: #D6D3CA;
-    width: 1200px;
-    padding: 40px 53px;
-    margin: auto;
-    box-shadow: 1px 1px 5px 1px grey;
 }
 
-.header {
-    margin-bottom: 42px;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
-    text-align: center;
+.card{
+    margin: 30px auto;
+    width: 358px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 30px;
 }
 
-.header-date {
-    text-align: right;
-    font-size: 36px;
+.card__img {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.header-title {
-    font-size: 96px;
-    font-style: italic;
-    text-transform: uppercase;
+.card__text {
+    margin-bottom: 30px;
+    color: #363062;
 }
 
-.content {
-    padding: 30px 51px;
-    border: 4px solid black;
-    margin-bottom: 37px;
-}
-
-.content-title {
-    font-size: 64px;
-    font-style: italic;
-    text-align: center;
-    margin-bottom: 55px;
-}
-
-.content-table {
-    vertical-align: top;
-}
-
-.table-row {
-    vertical-align: top;
-}
-
-.table-data {
-    padding-right: 27px;
-}
-
-.table-data-text,
-.table-data-text-last {
+.text__title {
     font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 500;
 }
 
-.table-data-text {
-    margin-bottom: 41px;
+.text__content {
+    font-size: 14px;
 }
 
 
-img {
-    width: 483px;
-    height: 550px;
+.card__button {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #F99417;
+    padding: 9px 26px;
+    cursor: pointer;
 }
 
-.advert-title {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: normal;
-    border: 4px solid black;
-    border-left: 0;
-    border-right: 0;
+.card__button:hover {
+    opacity: .7;
 }
 
-.adverts {
-    list-style-type: none;
-    margin-top: 20px;
-}
-
-.advert-item {
-    display: inline-block;
-    vertical-align: top;
-    width: 347px;
-    margin-right: 22px;
-}
-
-.advert-item:last-of-type {
-    margin-right: 0;
+.icon {
+    width: 20px;
+    color: #363062;
 }
