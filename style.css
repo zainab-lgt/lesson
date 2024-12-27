@@ -6,50 +6,91 @@
 
 body {
     font-family: 'StratosSkyeng', sans-serif;
+    background-color: #0F0804;
 }
 
-.card{
-    margin: 30px auto;
-    width: 358px;
-    border: 2px solid black;
-    border-radius: 25px;
-    padding: 30px;
+.header {
+    height: 100vh;
+    background-image: url(images/13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.card__img {
+.header__overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 80.49%, #0F0804 100%);
+    height: 100%;
     width: 100%;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.card__text {
-    margin-bottom: 30px;
-    color: #363062;
+.header__title {
+    margin: auto;
+    font-size: 96px;
+    text-align: center;
+    color: white;
+    max-width: 658px;
+    font-weight: 400;
 }
 
-.text__title {
+.header__link {
+    height: 90px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(11.5px);
+}
+
+.header__link:hover {
+    opacity: .8;
+}
+
+.header__anchor {
+    text-decoration: none;
+    color: white;
     font-size: 24px;
-    margin-bottom: 5px;
-    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text__content {
-    font-size: 14px;
+.gallery {
+    list-style-type: none;
+    margin: 173px auto;
+
+    display: flex;
+    max-width: 1060px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
 }
 
-
-.card__button {
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: #F99417;
-    padding: 9px 26px;
-    cursor: pointer;
+.gallery__item {
+    max-width: 330px;
 }
 
-.card__button:hover {
-    opacity: .7;
+.image {
+    width: 100%;
 }
 
-.icon {
-    width: 20px;
-    color: #363062;
+.footer {
+    height: 100vh;
+    background-image: url(./images/7.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer__overlay {
+    display: flex;
+    height: 100%;
+    background: linear-gradient(180deg, #0F0804 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.footer__text {
+    margin: auto;
+    font-size: 40px;
+    color: white;
 }
